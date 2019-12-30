@@ -1,0 +1,56 @@
+body{
+    background:#edededc2 !important;
+}
+.card{
+    border: none;
+    background: none;
+}
+.card-body{
+    padding: 8px;
+    background: #fff;
+}
+.cd1{
+     background: linear-gradient(45deg, #6a11cb , #2575fc)!important;
+    color: #fff;
+}
+.cd2{
+    background: linear-gradient(45deg, #fc4a1a, #f7b733)!important;
+    color: #fff;
+}
+.cd3{
+    background: linear-gradient(45deg, #00b09b, #96c93d)!important;
+    color: #fff;
+}
+.cd4{
+    background: linear-gradient(45deg, #ee0979, #ff6a00)!important;
+    color: #fff;
+}
+.Progress{
+    font-size: 12px;
+}
+.operation-sec .card-body{
+border-radius: 8px;
+}
+.font-text{
+    font-size: 18px;
+    font-weight: 500;
+}
+.badge{
+    font-weight: normal;
+    font-size: 14px;
+border-radius: 10px;
+width:40px;
+padding: 4px;
+}
+.fa-check{
+    font-size: 8px;
+}
+.mat-progress-bar-fill{
+    background-color: #f1f4f6 !important;
+}
+.cell{
+    box-shadow: 1px 8px 5px -8px rgba(0,0,0,0.4);
+}
+.mat-progress-bar-buffer {
+    background-color:none !important;
+}

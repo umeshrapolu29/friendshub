@@ -1,0 +1,38 @@
+<div class="container-fluid">
+
+
+
+    
+          <div class="row">
+
+            <div class="col "></div>
+            <div class="col sty1">
+        
+          <h4 class="text-center sty3">Leave Comment</h4>
+          
+         
+            <div class="sty2">    
+          <form class="form">
+              <div class="form-group">
+                  <label for="pwd" style="color: white;"> Photo:</label>
+                  <input type="file" class="form-control-file" id="Email" placeholder=" Confirmpassword" (change)="fileChangeEvent($event)" #fileInput>
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1" style="color: white;">Example textarea</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="comment"  [(ngModel)]="postingData.comment"></textarea>
+                  </div>
+
+                  <div><button type="button" class="btn btn-success" (click)="postingdata()">Submit</button></div>
+          </form>
+        </div> 
+        </div>
+       
+           
+
+    
+
+     
+
+
+    </div>
+

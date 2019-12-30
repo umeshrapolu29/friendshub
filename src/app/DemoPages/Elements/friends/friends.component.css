@@ -1,0 +1,33 @@
+.background{
+    width: 151px;
+    height: 151px;
+
+    border: 2px solid;
+}
+.tagstyle{
+    color: black;
+    margin-left: -21px;
+
+}
+.tagstyle h4{
+    margin-top: 30px;
+}
+.fas{
+    margin-top: 51px;
+    width: 63px;
+    height: 30px;
+    background: #9e9e9eb8;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.fas:hover{
+    background-color: black;
+    color: white
+
+}
+.card{
+    width: 500px
+}

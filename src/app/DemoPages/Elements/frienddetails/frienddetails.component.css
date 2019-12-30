@@ -1,0 +1,35 @@
+.namestyle{
+    color: black;
+}
+.card{
+    width: 500px;
+
+}
+/* .post{
+
+    color: black;
+
+    width: 500px;
+    background: gray;
+    margin-top: 13px;
+    padding: 4px;
+
+} */
+.imgstyle{
+    width: 300px;
+    height: 180px;
+
+}
+.ptag{
+    margin-top: 17px;
+    margin-left: 16px;
+
+}
+.sty5{
+    margin-top: 12px;
+    margin-left: 78px;
+}
+.likesstyle{
+    width: 300px;
+    margin-left: 83px;
+}

@@ -1,0 +1,28 @@
+.form{
+    margin-top: 50px;
+}
+.card{
+    margin-top: 50px;
+    width: 698px;
+    margin-left: 503px;
+    border: 1px solid;
+
+}
+/* .btn-success{
+    margin-right: 13px;
+}
+.btn-primary{
+    margin-left: 622px;
+} */
+.alg{
+    margin-left: 526px;
+}
+.container-fluid{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQe2RM9MmDLvNfDQSnpoQEYAqve5-Q5eWI93p66JWLYA61vGU4e");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    position: relative;
+    height: 657px;
+
+}

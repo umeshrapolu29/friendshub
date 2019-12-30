@@ -1,0 +1,79 @@
+
+<section class="container  ">
+    <div class="btn btn-block bg-primary text-white bo-btn" style="cursor: default !important;"><h5 class="mt-1">Application Control</h5></div>
+    <div class="row border bg-white rounded cell wrapper p-4 m-3">
+      <div class="col-8">
+
+      <div class="form-group"> 
+       <select class="form-control" id="exampleFormControlSelect1" [(ngModel)]="name" (ngModelChange)='onselected($event)'>
+          <option value="PO">PO</option>
+         <option value="CC">cc</option>
+         <option value="BO">BO</option>
+       </select>
+     </div>
+        <div class="content" id="toggleBtn">
+            <div class="scrollable">
+                <table class="table ">
+          <tr *ngFor="let x of array1Data " class="py-4">
+          
+              <td style="width: 1200px">{{x.name}}</td>             
+             <td class="mr-4">
+             <button type="button" id={{x.id}} (click)="onSelect(x)"class="glyphicon glyphicon-check play-btn">
+                <span *ngIf="!selectedButton[x.id]"><i class="fas fa-play text-danger"></i> </span>
+                <span *ngIf="selectedButton[x.id]"><i class="fas fa-pause text-success"></i> </span>    
+                  </button>
+            </td>
+            </tr>
+        </table>
+<!--    
+          <div class="d-flex justify-content-between"><p>BaiAjal-PostContract</p>
+            <button class="play-btn" (click)="togglePlay()">
+              <span *ngIf="playStatus"><i class="fas fa-play text-danger"></i> </span>
+              <span *ngIf="!playStatus"><i class="fas fa-pause text-success"></i> </span>                            			 
+            </button>
+          </div> -->
+<!--    
+          <div class="d-flex justify-content-between"><p>BaiAjal-PostContract</p>
+            <button class="play-btn">
+            <i class="fas fa-play text-danger"></i> 				 
+              </button>
+          </div> -->
+   
+          <!-- <div class="d-flex justify-content-between"><p>BaiAjal-PostContract</p>
+            <button class="play-btn">
+            <i class="fas fa-play text-danger"></i> 				 
+              </button>
+          </div>
+    -->
+          <!-- <div class="d-flex justify-content-between"><p>BaiAjal-PostContract</p>
+            <button class="play-btn">
+            <i class="fas fa-play text-danger"></i> 				 
+              </button>
+          </div> -->
+   
+          <!-- <div class="d-flex justify-content-between"><p>BaiAjal-PostContract</p>
+            <button class="play-btn">
+            <i class="fas fa-play text-danger"></i> 				 
+              </button>
+          </div> -->
+   
+          </div>
+           
+        </div>   
+      </div> 
+      <div class="col-4">
+
+      <div class="form-group d-flex align-items-center"> 
+       <select class="form-control" id="exampleFormControlSelect1" [(ngModel)]="name" (ngModelChange)='onselected1($event)'>
+          <option value="CC">cc</option>
+          <option value="PO">PO</option>
+          <option value="TO">TO</option>
+          <option value="BO">BO</option>
+       </select>
+       <span class="ml-2"><i class="fas fa-trash-alt"></i></span>
+     </div>
+      </div> 
+      </div>     
+    
+   </section>
+   

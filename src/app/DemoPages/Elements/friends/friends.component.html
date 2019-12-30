@@ -1,0 +1,42 @@
+<div class="container">
+
+  <div class="card mt-3"  *ngFor='let hero of array1'>
+    <div class="card-body">
+      <div class="row">
+        <div class="col-9">
+            <div class="row">
+                <div class="col-6">
+              <img src="{{hero.file}}" class="background "></div>
+              <div class="col-6 mt-1 tagstyle "><h4>{{hero.requestfrom}}</h4><i class="fas fa-eye" (click)="viewdetails(hero)">View</i></div>
+              </div>
+
+      </div>
+      <div class="col-3"></div>
+      </div>
+
+    </div>
+    
+     
+
+  </div>
+  <div class="card mt-3"  *ngFor='let hero of array3'>
+    <div class="card-body">
+      <div class="row">
+        <div class="col-9">
+            <div class="row">
+                <div class="col-6">
+              <img src="{{hero.requesttofile}}" class="background "></div>
+              <div class="col-6 mt-1 tagstyle "><h4>{{hero.requestto}}</h4><i class="fas fa-eye" (click)="viewdetails1(hero)">View</i></div>
+              </div>
+
+      </div>
+      <div class="col-3"></div>
+      </div>
+
+    </div>
+    
+     
+
+  </div>
+
+</div>

@@ -1,0 +1,61 @@
+<div class="container-fluid">
+
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="card cardstyle" *ngFor='let hero of array3'>
+          <div class="card-header d-flex align-items-center">
+          <img src="{{hero.file}}" class="rounded-circle" width="60px" height="60px">
+          <strong class="ml-2 text-dark">{{hero.comment|uppercase}}</strong>
+          </div>
+          <div class="card-body ">
+
+            <div class="d-flex">
+            </div>
+            <div>
+              <img src="{{hero.postimg}}" class="sty4">
+
+              <div class="sty5">
+                <p>{{hero.date}}</p>
+              </div>
+              <div>
+                <p>{{hero.likes}}Likes</p>
+              </div>
+
+              <!-- <p class="sty2 text-center">Posted By {{hero.username}}</p> -->
+              <hr>
+              <div class="astyle d-flex justify-content-around">
+                <a class="btn" (click)="displaycount(hero) "><i class="fa fa-thumbs-up fa-1x mr-1"></i><span
+                    class="">Like</span></a>
+                <a class="btn"><i class="fa fa-comments fa-1x mr-1"></i><span class="">comment</span></a>
+                <a class="btn"><i class="fa fa-share-alt mr-1"></i><span class="">share</span></a>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+        <br><br>
+      </div>
+      <div class="col">
+
+        <div class="card card1" *ngFor="let hero of array2| paginate: {itemsPerPage:1, currentPage:u}">
+          <div class="card-body">
+            <div class=""><img src="{{hero.file}}" class="rounded" width="200px" height="200px"> </div>
+
+            <p class="sty8">{{hero.firstname|uppercase}}</p>
+            <button type="button" class="btn btn-primary sty7" (click)="request(hero)" value="Requested"
+              #id1>ADDFRIEND</button>
+
+          </div>
+
+
+
+
+        </div>
+        <pagination-controls (pageChange)="u=$event"></pagination-controls>
+      </div>
+    </div>
+  </div>
+
+</div>

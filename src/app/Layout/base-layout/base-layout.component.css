@@ -1,0 +1,38 @@
+.background{
+    height: 230px;
+    width: 879px;
+    margin-left: 231px;
+    background-image: url(../../../assets/images/students-1807505_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px -141px;
+    
+
+}
+.card{
+    margin-left: 231px;
+    height: 36px;
+}
+.card-body{
+    margin-top: -15px;
+
+}
+.app-main__inner{
+    margin-top: -60px;
+
+}
+.cover-menu h6{
+    cursor: pointer;
+   
+}
+.cover-menu h6:hover{
+    background: rgb(10, 10, 10);
+    color: white;
+   border-radius: 15px;
+   padding: 4px 10px;
+}
+.iconstyle{
+    float: right;
+    margin-top: -6px;
+    color: black;
+}

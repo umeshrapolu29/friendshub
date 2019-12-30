@@ -1,0 +1,32 @@
+<div class="container">
+  <div class="card">
+    <div class="card-body">
+  <div class="d-flex justify-content-center" >
+   <img src="{{file1}}" class="rounded-circle text-center" width="200px" height="200px"> 
+
+  </div>
+  <h3 class="text-center mt-3 namestyle">{{name}}</h3>
+</div>
+
+
+</div>
+<div  class="post">
+  <h4 >Posts</h4>
+  <p>Your all posts are starts from here</p>
+</div>
+  
+<div class="card mb-2" *ngFor='let hero of array3'>
+  <div class="card-body" >
+
+      <div class="d-flex"> <img src="{{hero.file}}" class="rounded-circle" width="60px" height="60px">    <p class="ptag">{{hero.comment|uppercase}}</p></div>
+
+   <div class="d-flex justify-content-center "> <img src="{{hero.postimg}}" width="40px" height="40px" class="imgstyle"></div>
+   <div class="sty5"><p>{{hero.date}}</p></div>
+   <div class="d-flex justify-content-between likesstyle">
+     <p>{{hero.likes}}Likes</p>
+     <p>comments</p>
+   </div>
+  </div>
+</div>
+
+</div>

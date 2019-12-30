@@ -1,0 +1,99 @@
+.card{
+    width: 400px;
+    -moz-box-shadow: 0 2px 2px -1px #888;
+-webkit-box-shadow: 0 2px 2px -1px #888;
+box-shadow: 0 2px 2px -1px #888
+   
+}
+.sty4{
+    /* width: 260px; */
+    text-align: center;
+    height: 250px;
+    display: flex;
+    margin: 0 auto;
+    /* margin-left: 64px;
+    margin-top: 11px; */
+
+
+}
+.sty2{
+    margin-top: 21px
+}
+.icon1{
+    margin-left: 123px;
+    margin-top: 0px;
+    margin-left: 113px;
+
+}
+.fa1{
+    margin-left: -52px;
+}
+.fa2{
+    margin-left: 52px;
+}
+.fa3{
+    margin-left: 61px;
+}
+.spa1{
+    font-size: 12px;
+}
+.ptag{
+    margin-top: 16px;
+    margin-left: 60px;
+}
+.icontag{
+ margin-left: 97px;
+}
+.tagp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    font-size: 15px;
+    font-weight: 500;
+    color: black;
+
+}
+.sty5{
+    margin-top: 9px;
+    margin-left: 67px;
+}
+/* .sty6{
+    margin-left: -30px;
+} */
+.sty6:hover{
+     background: black
+}
+.card1{
+    width: 250px;
+    
+
+}
+.sty7{
+    margin-top: -10px;
+    width: 200px;
+}
+.sty8{
+    margin-top: 12px;
+}
+.cardstyle{
+    margin: 15px 0px;
+}
+.astyle .btn{
+    cursor: pointer;
+}
+
+.astyle .btn:focus{    
+    cursor: pointer !important;
+    color: blue !important;
+    /* background: black;
+    width: 60px;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: center;
+    display: flex; */
+}
+/* .astyle a:focus{
+    background:red;
+    color: white;
+} */

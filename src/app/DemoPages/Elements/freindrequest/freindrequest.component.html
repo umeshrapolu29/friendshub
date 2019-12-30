@@ -1,0 +1,24 @@
+
+<div class="container" >
+  <div class="card mt-2" *ngFor='let hero of array1'>
+    <div class="card-body " >
+      <div class="row " >
+        <div class="col-4">
+          <div class="row">
+             <div class="col-4">
+          <img src="{{hero.file}}" class="background"></div>
+          <div class="col-8"><h4>{{hero. requestfrom}}</h4></div>
+          </div>
+        </div>
+
+       
+        <div class="col-6 mt-3">
+            <button type="button" class="btn btn-primary mr-3" (click)="requeststatus(hero)" value="Accepeted" #id1>Confirm</button>
+            <button type="button" class="btn btn-secondary" (click)="requeststatusdelete(hero)" #id2>Delete Request</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+</div>

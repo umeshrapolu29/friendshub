@@ -1,0 +1,60 @@
+.container{
+    padding: 50px;
+}
+.card{
+    margin-top: 50px;
+    /* width: 400px; */
+     align-content: center;
+     /* margin-left: 300px; */
+}
+.rowbackground{
+    background-image: url('../../assets/images/write-593333_640.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid;
+    width: 750px;
+    margin-left: 108px;
+}
+.colstyle{
+    background: white;
+    padding: 34px;
+}
+.form-control{
+    border-radius: 20px;
+    box-shadow: 0 0 2px
+}
+.label{
+    margin-left: 13px;
+    font-size: 15px;
+
+}
+/* .card{
+    margin-top: 80px;
+
+}
+.container{
+    
+    margin-top: 50px;
+    padding: 46px;
+}
+.background{
+    height: 150px;
+    background: black;
+}
+.colstyle{
+    background: white;
+  
+    padding: 20px;
+}
+.formstyle{
+    padding: 19px;
+}
+.form-control{
+    border-radius: 20px;
+    box-shadow: 0 0 2px
+}
+.rowbackgroud{
+    background-image: url('../../assets/images/student-849825_640.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+} */

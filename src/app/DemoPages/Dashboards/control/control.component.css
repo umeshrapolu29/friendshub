@@ -1,0 +1,26 @@
+.play-btn{
+    background-color: transparent;
+    border:none;
+    color: red;
+    box-shadow: none;
+    outline: none;
+    font-size: 13px;
+    }
+    .play-btn:focus{
+    outline: none;
+    }
+    select:focus{
+        border:2px solid lightgreen !important;
+        outline: none !important;
+        box-shadow: none !important;
+    }
+    .cell{
+    box-shadow: 0px 3px 7px -5px black;
+}
+.scrollable{
+    height: 300px;
+    overflow: scroll;
+}
+td{
+    padding:0.45rem 1.25rem !important;
+}

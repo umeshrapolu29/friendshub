@@ -1,0 +1,21 @@
+.card{
+    width: 557px;
+    margin-left: 184px;
+}
+ .container-fluid{
+    background-image: url("https://image.winudf.com/v2/image/ZHNsci5tZWdhLnpvb21oZENhbWVyYV9zY3JlZW5fMV8xNTExOTk1ODgzXzA3OA/screen-1.jpg?fakeurl=1&type=.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+.sty1{
+    /* border: 1px solid */
+    background: black;
+    padding: 41px;
+}
+.sty2{
+    margin-top: 38px;
+    margin-left: 10px;
+}
+.sty3{
+    color: white;
+}
